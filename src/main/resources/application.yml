@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://124.71.223.180:3306/db_property?useUnicode=true&characterEncoding=utf8&returnAffectedCount=true
+    url: jdbc:mysql://Localhost:3306/db_property?useUnicode=true&characterEncoding=utf8&returnAffectedCount=true
     hikari:
       # 连接池最大连接数，默认是 10
       maximum-pool-size: 60
